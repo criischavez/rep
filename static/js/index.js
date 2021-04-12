@@ -19,7 +19,7 @@ function LED1_Off(){
 
 function registro(){	
 	//alert("led off");
-	console.log("led off");
+	console.log("Pedir registro desde el servidor");
 	message = new Paho.MQTT.Message("IMPRIMIR");
     	message.destinationName = "cristina.chavez@unach.edu.ec/ser-dis";
     	client.send(message);
