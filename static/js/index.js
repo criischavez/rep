@@ -17,7 +17,7 @@ function LED1_Off(){
 	//document.getElementById("sensor").innerHTML="led off";
 }
 
-function registro{	
+function registro(){	
 	//alert("led off");
 	console.log("led off");
 	message = new Paho.MQTT.Message("IMPRIMIR");
