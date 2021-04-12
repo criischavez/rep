@@ -21,7 +21,7 @@ function registro(){
 	//alert("led off");
 	console.log("led off");
 	message = new Paho.MQTT.Message("IMPRIMIR");
-    	message.destinationName = "cristina.chavez@unach.edu.ec/dis-ser";
+    	message.destinationName = "cristina.chavez@unach.edu.ec/ser-dis";
     	client.send(message);
 	//document.getElementById("sensor").innerHTML="led off";
 }
